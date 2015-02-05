@@ -1,7 +1,6 @@
 Body.destroy_all
 BodyType.destroy_all
 
-
 star          = BodyType.create!(name: 'Star')
 terrestrial   = BodyType.create!(name: 'Terrestrial planet')
 gas_giant     = BodyType.create!(name: 'Gas giant')
